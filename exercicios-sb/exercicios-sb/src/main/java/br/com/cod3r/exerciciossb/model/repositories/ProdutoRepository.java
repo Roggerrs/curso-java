@@ -35,24 +35,15 @@ import jakarta.validation.Valid;
 
 public interface ProdutoRepository extends PagingAndSortingRepository<Produto, Integer> {
 
-    // O método save já vem herdado de CrudRepository/PagingAndSortingRepository,
-    // não sendo necessário redeclará-lo aqui.
     
-    // Removemos o método findByNome() sem parâmetros, pois não segue a 
-    // convenção de consulta do Spring Data.
-
-    // Alteramos o método de consulta para utilizar uma palavra-chave que
-    // permita buscar produtos cujo nome contenha a string informada, ignorando
-    // diferenças entre maiúsculas e minúsculas.
     List<Produto> findByNomeContainingIgnoreCase(String parteNome);
     
-    // O método findById também já está disponível na interface base,
-    // mas se desejar especificar a assinatura, use a classe Wrapper Integer.
+  
     Optional<Produto> findById(Integer id);
 
 	Produto save(@Valid Produto produto);
 
 	void deleteById(Integer id);
 
-    // O método deleteById também já é herdado, portanto não é necessário redeclará-lo.
+   
 }
