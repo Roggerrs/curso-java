@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TesteFabricaController {
 
     @Autowired
-    @Qualifier("motorAspirado") // Altere aqui para usar o bean existente
+    @Qualifier("motorTurbo") // Altere aqui para usar o bean existente
     private Motor motor;
 
     @PostMapping
@@ -22,3 +22,4 @@ public class TesteFabricaController {
         return carro.darIgnicao(chave);
     }
 }
+

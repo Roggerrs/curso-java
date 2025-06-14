@@ -1,5 +1,11 @@
 package io.github.cursodsousa.arquiteturaspring.montadora;
 
+import org.hibernate.persister.collection.mutation.DeleteRowsCoordinatorNoOp;
+
 public enum TipoMotor {
-    ASPIRADO
+    ASPIRADO,
+    TURBO,
+    ELETRICO
+
+
 }
