@@ -2,6 +2,7 @@ package io.github.cursodsousa.arquiteturaspring.montadora.configuration;
 
 import io.github.cursodsousa.arquiteturaspring.montadora.Motor;
 import io.github.cursodsousa.arquiteturaspring.montadora.TipoMotor;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
