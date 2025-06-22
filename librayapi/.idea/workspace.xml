@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="73422ab7-b4f0-48c5-a00e-a02347cdf8f7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../libraryapi/libraryapi/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../libraryapi/libraryapi/src/main/java/io/github/cursodsousa/librayapi/config/DatabaseConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../libraryapi/libraryapi/src/main/java/io/github/cursodsousa/librayapi/model/Autor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../libraryapi/libraryapi/src/main/java/io/github/cursodsousa/librayapi/model/GeneroLivro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../libraryapi/libraryapi/src/main/java/io/github/cursodsousa/librayapi/model/Livro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../libraryapi/libraryapi/src/main/java/io/github/cursodsousa/librayapi/repository/AutorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../libraryapi/libraryapi/src/main/java/io/github/cursodsousa/librayapi/repository/LivroRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../libraryapi/libraryapi/src/main/java/io/github/cursodsousa/librayapi/service/TransacaoService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Roggerrs&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Roggerrs/curso-java.git&quot;,
+    &quot;accountId&quot;: &quot;2a7f2691-a46d-4c3c-a0da-4f9b6e4f4621&quot;
+  }
+}</component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2yqKjgvLROG2rlqsxQPqkuKTH7F" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.librayapi [clean,install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Roger/Desktop/curso-java/libraryapi",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="librayapi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="librayapi" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="73422ab7-b4f0-48c5-a00e-a02347cdf8f7" name="Changes" comment="" />
+      <created>1750556801052</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750556801052</updated>
+    </task>
+    <servers />
+  </component>
+</project>
