@@ -31,3 +31,14 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Ignora tudo por padrão
+*
+
+# Garante que pastas sejam rastreadas para permitir exceções
+!*/
+
+# Mantém os arquivos e pastas desejados
+!docker-compose.yml
+!src/
+!readme*
